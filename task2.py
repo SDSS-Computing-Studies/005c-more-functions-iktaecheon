@@ -17,4 +17,3 @@ def largest(x):
     return biggest
 
 assert largest([3,10,3]) == 10
-print(largest([10,50,100,3000.1]))

@@ -27,6 +27,7 @@ def hypotenuse(x,y,z):
         miss = ((x**2)+(y**2))**(1/2)
     if miss%1 == 0:
         miss = int(miss)
+    return miss
 
 
-print(hypotenuse(5,3,True))
+print(hypotenuse(12,5,False))
